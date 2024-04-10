@@ -1,15 +1,15 @@
-# English translations for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# English translations for i18n.
+# Copyright (C) 2024 OMAR ACHKIR
+# This file is distributed under the same license as the i18n project.
+# OMAR ACHKIR <omar0642624692@gmail.com>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"Report-Msgid-Bugs-To: omar0642624692@gmail.com\n"
 "POT-Creation-Date: 2024-04-09 15:35-0700\n"
-"PO-Revision-Date: 2024-04-09 17:25-0700\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-04-09 15:36-0700\n"
+"Last-Translator: OMAR ACHKIR <omar0642624692@gmail.com>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -18,11 +18,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/3-index.html:6
+#: templates/3-index.html:6 templates/4-index.html:6 templates/5-index.html:6
 msgid "home_title"
-msgstr ""
+msgstr "Welcome to Holberton"
 
-#: templates/3-index.html:9
+#: templates/3-index.html:9 templates/4-index.html:9 templates/5-index.html:9
 msgid "home_header"
-msgstr ""
+msgstr "Hello world!"
+
+#: templates/5-index.html:11
+msgid "logged_in_as"
+msgstr "You are logged in as %(username)s."
+
+#: templates/5-index.html:13
+msgid "not_logged_in"
+msgstr "You are not logged in."
 
